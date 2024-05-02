@@ -11,8 +11,6 @@ const ImageSlider = () => {
 
   const slides = [{ url: image1, title: "beach" },  { url: image2, title: "boat" },{ url: image3, title: "boat" },{ url: image4, title: "boat" },{ url: image5, title: "boat" }];
 
-  
-
   const containerStyles = {
     width: "100%",
     maxWidth: "1450px", // Set maximum width for larger screens
@@ -67,16 +65,17 @@ const ImageSlider = () => {
     zIndex: 1,
   };
 
-  const dotStyle = {
-    margin: "0 3px",
-    cursor: "pointer",
-    fontSize: "20px",
-    color:
-      index === currentIndex
-        ? "rgba(255, 255, 255, 0.8)"
-        : "rgba(255, 255, 255, 0.3)",
+  const dotStyle = (index) => {
+    return {
+      margin: "0 3px",
+      cursor: "pointer",
+      fontSize: "20px",
+      color:
+        currentIndex === index
+          ? "rgba(255, 255, 255, 0.8)"
+          : "rgba(255, 255, 255, 0.3)",
+    };
   };
-  
 
   const goToPrevious = () => {
     const isFirstSlide = currentIndex === 0;
@@ -107,7 +106,7 @@ const ImageSlider = () => {
         {slides.map((slide, index) => (
           <div
             key={index}
-            style={dotStyle}
+            style={dotStyle(index)} // Passing index to dotStyle
             onClick={() => goToSlide(index)}
           >
             ●
