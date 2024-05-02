@@ -48,7 +48,7 @@ const Carousel = () => {
             <img src={image1} alt="Image 1" />
             <h3>Hollow Bricks</h3>
             <p>hollow concrete blocks, are widely used in construction for their lightweight nature, thermal insulation properties, and structural strength, making them ideal for various building applications.</p>
-            <Link to="/service/Hollow-brick" target="_blank">
+            <Link to="/service/Hollow-brick">
               <button>Read more</button>
             </Link>
           </div>
@@ -58,7 +58,7 @@ const Carousel = () => {
             <img src={image2} alt="Image 2" />
             <h3>Flyash Bricks</h3>
             <p>Fly ash bricks offer eco-friendly construction solutions with superior strength and cost-effectiveness, reducing environmental impact while ensuring durability.</p>
-            <Link to="/service/Flyash-brick" target="_blank">
+            <Link to="/service/Flyash-brick">
               <button>Read more</button>
             </Link>
           </div>
@@ -68,7 +68,7 @@ const Carousel = () => {
             <img src={image3} alt="Image 3" />
             <h3>Interlock Bricks</h3>
             <p>Interlocking concrete pavers, are a popular choice in construction due to their ease of installation, durability, and aesthetic appeal</p>
-            <Link to="/service/InterLocking-brick" target="_blank">
+            <Link to="/service/InterLocking-brick">
               <button>Read more</button>
             </Link>
           </div>
@@ -78,7 +78,7 @@ const Carousel = () => {
             <img src={image4} alt="Image 4" />
             <h3>Solid Bricks</h3>
             <p>Solid concrete blocks or solid clay bricks, are dense, heavy bricks used in construction for their robustness and load-bearing capacity, providing stability and strength to structures.</p>
-            <Link to="/service/Solid-brick" target="_blank">
+            <Link to="/service/Solid-brick">
               <button>Read more</button>
             </Link>
           </div>
@@ -88,7 +88,7 @@ const Carousel = () => {
             <img src={image5} alt="Image 5" />
             <h3>Aggregates</h3>
             <p>Aggregates are essential components in construction, typically referring to granular materials such as sand, gravel, crushed stone, or recycled concrete.</p>
-            <Link to="/service/Aggregates" target="_blank">
+            <Link to="/service/Aggregates">
               <button>Read more</button>
             </Link>
           </div>

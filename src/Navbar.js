@@ -33,10 +33,9 @@ const Navbar = () => {
               <a href="/contact" onClick={handleMenuClick}>Contact</a>
             </li>
             <li>
-            <a href="https://api.whatsapp.com/send?phone=8428560078" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp">
-  <FaWhatsapp className="whatsapp" />
-</a>
-
+              <a href="https://api.whatsapp.com/send?phone=8428560078" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp">
+                <FaWhatsapp className="whatsapp" />
+              </a>
             </li>
             <li>
               <a href="tel:+918428560078">
@@ -48,12 +47,9 @@ const Navbar = () => {
 
         <div className="social-media">
           <div className="hamburger-menu">
-            <li>
-            <a href="#" onClick={handleMenuClick}>
-              
+            <button onClick={handleMenuClick} aria-label="Toggle Menu">
               <GiHamburgerMenu />
-            </a>
-            </li>
+            </button>
           </div>
         </div>
       </nav>

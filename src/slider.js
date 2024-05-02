@@ -72,10 +72,11 @@ const ImageSlider = () => {
     cursor: "pointer",
     fontSize: "20px",
     color:
-      currentIndex === currentIndex
+      index === currentIndex
         ? "rgba(255, 255, 255, 0.8)"
         : "rgba(255, 255, 255, 0.3)",
   };
+  
 
   const goToPrevious = () => {
     const isFirstSlide = currentIndex === 0;

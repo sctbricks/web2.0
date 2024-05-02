@@ -1,5 +1,3 @@
-// Footer.js
-
 import React from "react";
 import "./footer.css";
 
@@ -13,10 +11,11 @@ const Footer = () => {
               <a href="https://wa.me/+918428560078" target="_blank" rel="noopener noreferrer">
                 <i className="fab fa-whatsapp"></i>
               </a>
-              <a href="tel:+918428560078" target="_blank" rel="noopener noreferrer">
+              <a href="tel:+918428560078">
                 <i className="fas fa-phone-alt"></i>
               </a>
-              <a href="#" target="_blank" rel="noopener noreferrer">
+              {/* Replace "#" with a valid URL or remove the anchor tag if it's not needed */}
+              <a href="#">
                 <i className="fas fa-map-marker-alt"></i>
               </a>
             </div>
